@@ -8,6 +8,7 @@
 ### Dataset preparation ###
 The dataset for training the model is taken from [Kaggle](https://www.kaggle.com/datasets/aslanahmedov/number-plate-detection) and the open-source dataset for vehicle number plate recognition is difficult to obtain. The vehicle dataset has 225 Images with labels collected from different sources. the dataset is fairly good and the labels are based on XML format. So the dataset has done the preprocessing before being fed to the YoloV7 model. The bounding boxes of the labeled images are based on 4 points (Xmin, Xmax, Ymin, Ymax). But the YoloV7 requires bounding boxes in the format. **<class, center_x, center_y, width, height>**
 
+![YoloV7 bounding box](Tutorial Images/Yolov7 bounding box?raw=true "Title")
 
 https://blog.paperspace.com/train-yolov7-custom-data/
 
@@ -76,7 +77,7 @@ The command line arguments are as follow:
 
  1) **weights** - The .pt file based on our trianed model. It wil be available in the folder - Model
  2) **source** - the location of the images which has to be tested.
- 3) ** conf** - The confidence score
+ 3) **conf** - The confidence score
 
  ## Result ##
 
