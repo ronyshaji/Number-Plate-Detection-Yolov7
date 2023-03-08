@@ -82,3 +82,4 @@ The command line arguments are as follow:
 
  The object recognition model based on the YoloV7 has successfully detected the license plate of vehicles. Both Images and video was tested on the model. The Model is not perfect as the dataset comparatively less number of images and due to this, it will be probably underfitting.
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
