@@ -11,6 +11,8 @@ The dataset for training the model is taken from [Kaggle](https://www.kaggle.com
 
 ![YoloV7 bounding box](../main/Tutorial Images/Yolov7 bounding box.png)
 
+<img src="/Tutorial Images/Yolov7 bounding box.png" alt="Alt text" title="Optional title">
+
 https://blog.paperspace.com/train-yolov7-custom-data/
 
 The whole datset is split into train, validation and test based on the proportion 80:10:10. The YoloV7 requires a particular structure of the train, test and calidation dataset. The folder format of the images and lables hould be like this:
