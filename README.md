@@ -9,11 +9,11 @@
 The dataset for training the model is taken from [Kaggle](https://www.kaggle.com/datasets/aslanahmedov/number-plate-detection) and the open-source dataset for vehicle number plate recognition is difficult to obtain. The vehicle dataset has 225 Images with labels collected from different sources. the dataset is fairly good and the labels are based on XML format. So the dataset has done the preprocessing before being fed to the YoloV7 model. The bounding boxes of the labeled images are based on 4 points (Xmin, Xmax, Ymin, Ymax). But the YoloV7 requires bounding boxes in the format. **<class, center_x, center_y, width, height>**
 
 
-![YoloV7 bounding box](../main/Tutorial Images/Yolov7 bounding box.png)
+<img src="/Tutorial Images/Yolov7 bounding box.png" alt="Alt text" title="YOLOV7 bounding box">
 
-<img src="/Tutorial Images/Yolov7 bounding box.png" alt="Alt text" title="Optional title">
+[Source: Paperspace](https://blog.paperspace.com/train-yolov7-custom-data/)
 
-https://blog.paperspace.com/train-yolov7-custom-data/
+
 
 The whole datset is split into train, validation and test based on the proportion 80:10:10. The YoloV7 requires a particular structure of the train, test and calidation dataset. The folder format of the images and lables hould be like this:
 ```
@@ -27,7 +27,7 @@ val
 │──Images
 │──Labels 
 ```
-Once the dataset is plit inot train, test, val with the lables, it'S time to train the model based on the dataset.
+Once the dataset is split into train, test, val with the lables, it'S time to train the model based on the dataset.
 
 ### Cloning the YoloV7 repository ###
 
@@ -87,3 +87,19 @@ The command line arguments are as follow:
  The object recognition model based on the YoloV7 has successfully detected the license plate of vehicles. Both Images and video was tested on the model. The Model is not perfect as the dataset comparatively less number of images and due to this, it will be probably underfitting.
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
+
+<img src="/Tutorial Images/N17.jpeg" alt="Alt text" title="YOLOV7 Training Results">
+<img src="/Tutorial Images/N38.jpeg" alt="Alt text" title="YOLOV7 Training Results">
+<img src="/Tutorial Images/N44.jpeg" alt="Alt text" title="YOLOV7 Training Results">
+<img src="/Tutorial Images/N48.jpeg" alt="Alt text" title="YOLOV7 Training Results">
+<img src="/Tutorial Images/N72.jpeg" alt="Alt text" title="YOLOV7 Training Results">
+<img src="/Tutorial Images/N82.jpeg" alt="Alt text" title="YOLOV7 Training Results">
+<img src="/Tutorial Images/N120.jpeg" alt="Alt text" title="YOLOV7 Training Results">
+<img src="/Tutorial Images/N121.jpeg" alt="Alt text" title="YOLOV7 Training Results">
+<img src="/Tutorial Images/N144.jpeg" alt="Alt text" title="YOLOV7 Training Results">
+<img src="/Tutorial Images/N154.jpeg" alt="Alt text" title="YOLOV7 Training Results">
+<img src="/Tutorial Images/N175.jpeg" alt="Alt text" title="YOLOV7 Training Results">
+<img src="/Tutorial Images/N198.jpeg" alt="Alt text" title="YOLOV7 Training Results">
+<img src="/Tutorial Images/N229.jpeg" alt="Alt text" title="YOLOV7 Training Results">
+<img src="/Tutorial Images/N230.jpeg" alt="Alt text" title="YOLOV7 Training Results">
+<img src="/Tutorial Images/N247.jpeg" alt="Alt text" title="YOLOV7 Training Results">
