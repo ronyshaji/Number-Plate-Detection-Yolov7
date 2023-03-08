@@ -103,3 +103,11 @@ The command line arguments are as follow:
 <img src="/Tutorial Images/N229.jpeg" alt="Alt text" title="YOLOV7 Training Results">
 <img src="/Tutorial Images/N230.jpeg" alt="Alt text" title="YOLOV7 Training Results">
 <img src="/Tutorial Images/N247.jpeg" alt="Alt text" title="YOLOV7 Training Results">
+
+## Conclusions ##
+
+The model is able to detect succesfully almost all the license plates. But there was some issues noticed from the model:-
+
+1) The license plate with red background was not detected --> Not enough training data with red background.
+2) Model may be overfitting after 200 epochs as it detects the naming of the car as number plates, for eg: with a confidence of 0.4 in one of the results
+3) Diverese images has to be trained to get a better result, but it serves as a starting point to detect the number plates.
